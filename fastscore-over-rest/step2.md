@@ -26,9 +26,6 @@ fastscore stream add rest <<EOF
 EOF
 `{{execute}}
 
-Copy the below and paste into Terminal window (right-click --> Paste)
-
-
 Validate stream was added successfully:
 
 `fastscore stream list; fastscore stream show rest`{{execute}}

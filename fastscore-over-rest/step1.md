@@ -16,5 +16,5 @@ Configure FastScore:
 
 `fastscore config set fastscore-over-rest/config.yaml`{{execute}}
 
-Show FastScore fleet status
-`fastscore fleet -v`{{execute}}
+Show FastScore fleet status (-wait instructs to wait for all FastScore micro-services to start and -v displays versions info):
+`fastscore fleet -wait -v`{{execute}}
