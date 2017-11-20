@@ -13,16 +13,14 @@ Inspect streams:
 Send data to scoring:
 `fastscore model input`{{execute}}
 
-Type any integer number into Terminal window and press Enter key *twice*. For example:
+Type any integer number into Terminal window and press Enter key *twice*.
 
-`
-14
-
-`{{copy}}
-
-Now, retrieve the result:
+Retrieve the result with:
 `fastscore model output`{{execute}}
 
-You should see 15. You can experiment with "fastscore model input" and type other inputs.
+You can experiment more with "fastscore model input" and type other inputs.
 
 cUrl can also be used to submit data for scoring.
+
+Stop the engine:
+`fastscore engine reset`{{execute}}
