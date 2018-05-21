@@ -10,7 +10,7 @@ Connect to FastScore; note the following:
 - docker's containers are running on host01
 - FastScore exposes port 8000 for management and configuration
 
-`fastscore connect https://host01:8000`{{execute}}
+`fastscore connect https://host01:8000 -wait`{{execute}}
 
 Configure FastScore:
 
