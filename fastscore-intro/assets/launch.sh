@@ -1,5 +1,5 @@
 echo "Starting FastScore..."
-while [ "$STR" != "Done" ]
+while [ `fastscore schema show gbm_output | wc -l` -eq 3 ]
 do
   sleep 1
 done
