@@ -1,8 +1,8 @@
-Let's detach the file data transport from the engine and attach the kafka data transport to turn it into a streaming model! We will also produce the score and send them over kafka.
+Let's reset the same engine and attach the kafka data transport to turn it into a streaming model! We will also produce the score and send them over kafka.
 
-`fastscore stream detach 0`{{execute}} 
+`fastscore engine reset`{{execute}} 
 
-`fastscore stream detach 1`{{execute}} 
+`fastscore model load gbm_python`{{execute}}
 
 `fastscore stream attach kafka_in 0`{{execute}} 
 
