@@ -6,7 +6,7 @@ In the testing phase, a static file may be used to ensure the models execute pro
 
 Let's look at the first row of data this model will consume (this example file only contains 5 rows of data):
 
-`head -1 ./katacoda/fastscore-intro/data/input_data.jsons`{{execute}}
+`head -1 ./fastscore-intro/data/input_data.jsons`{{execute}}
 
 If the data structure does not match the input schema, we will receive an error. This ensures that the data structure expectations are met at all times.
 
