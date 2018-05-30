@@ -19,4 +19,4 @@ Let's set our output data stream:
 
 Now, let's see the scores from the model:
 
-`head -5 ./katacoda/fastscore-intro/data/output_data.jsons`{{execute}}
+`head -5 ./fastscore-intro/data/output_data.jsons`{{execute}}
