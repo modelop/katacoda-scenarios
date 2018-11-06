@@ -22,7 +22,7 @@
   },
   "environment": {
     "showdashboard": true,
-    "dashboards": [{"name": "Dashboard", "port": 80}],
+    "dashboards": [{"name": "Dashboard", "port": 443}],
     "uilayout": "terminal"
   },
   "backend": {
